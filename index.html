@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Site Bookmaker</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body onload="getStoredData()">
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+
+  <div class="jumbotron bg-dark">
+    <div class="container">
+      <h1 class="display-3 text-warning">WebSite Bookmaker</h1>
+
+      <br>
+      <p class="text-warning" style="margin-bottom: 20px;">Bookmark your favourite sites...</p>
+    </div>
+  
+  <!-- <div class="jumbotron "> -->
+  <div class="container bg-primary" style="padding: 25px;">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+      <form method="" action="" id="bookmarkForm">
+        <label class="text-warning" for="">Site Name</label>
+          <input class="form-control" type="text" name="" id="bookmarkName"><br>
+          <label for="" class="text-warning">Site URL:</label>
+          <input class="form-control" type="text" name="" id="bookmarkAddress"><br>
+          <button class="btn btn-warning btn-block" type="submit" id="setBookmark">Submit</button>
+          <br>
+      </form>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
+          <h4 class="text-warning bg-primary" style="padding-left: 45px;">Recorded Bookmarks Name and Address</h4>
+          <div id="bookmarkResults">
+            <!-- <table class="table table-dark text-warning">
+              <thead>
+                <tr>
+                  <td>Action</td>
+                  <td>Site Name</td>
+                  <td>Site Address</td>
+                </tr>
+              </thead>
+            </table> -->
+
+          </div>
+      </div>
+    </div>
+  
+<div style="padding: 50px"></div>
+      </div>
+
+
+    <hr>
+
+  
+
+</main>
+
+<footer class="container">
+  <p>&copy; BookMark 2019</p>
+</footer>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</html>
